@@ -1,0 +1,3 @@
+sudo docker --rm -it --privileged nicolaka/netshoot
+echo "alias netshoot='sudo docker --rm -it --net container:<container_id> --privileged nicolaka/netshoot'" >> ~/.bashrc
+source ~/.bashrc
